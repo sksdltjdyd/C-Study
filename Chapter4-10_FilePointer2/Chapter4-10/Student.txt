@@ -1,0 +1,6 @@
+Name : 서용
+Korean : 90 / Math : 90 / English : 90
+Name : 미자
+Korean : 100 / Math : 50 / English : 40
+Name : 길동
+Korean : 60 / Math : 70 / English : 45
