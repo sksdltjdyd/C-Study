@@ -1,3 +1,0 @@
-F:\Visual_Study\Chapter4-8\Chapter4-8\x64\Debug\Chapter4-8.vcxproj.MdMergeInputs.cache
-F:\Visual_Study\Chapter4-8\Chapter4-8\x64\Debug\Chapter4-8.vcxproj.cppwinrt_plat.cache
-F:\Visual_Study\Chapter4-8\Chapter4-8\x64\Debug\Chapter4-8.vcxproj.cppwinrt_comp.cache
