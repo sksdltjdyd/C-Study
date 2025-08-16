@@ -26,6 +26,11 @@
 - Heap 영역에 존재하는 값들은 '유동적인' 즉, 동적인 존재가 된다(생명주기가 해제될때까지 유지된다)
 */
 
+enum class Time
+{
+	Morning, Afternoon, Night
+};
+
 class Animal
 {
 public:
@@ -45,12 +50,24 @@ public:
 };
 
 class Person : public Animal {
+private:
+	Time time = Time::Morning;
 public:
 	Person(const char* name) : Animal(name) {}
 	
 	// 순수 가상함수 정의
 	virtual int getlegs() {
-		return 2;
+		switch (time)
+		{
+		case Time::Morning: return 4;
+		case Time::Afternoon: return 2;
+		case Time::Night: return 3;
+		default: return 2;
+		}
+	}
+
+	void settime(Time t) {
+		this->time = t;
 	}
 };
 
@@ -94,6 +111,7 @@ int main() {
 	printf("%d\n", shift_r);
 
 	Person* p = new Person("서용");
+	p->settime(Time::Night);
 	p->printinfo();
 
 	Dog* d = new Dog();
