@@ -20,7 +20,7 @@ enum class Day
 	Sun, Mon, Tue, Wed, Thur, Fri, Sat
 };
 
-/*ㅏ
+/*
 Enum과 Switch
 - enum은 내부적으로 integer로 돌아가고 있기 때문에 switch구문과 밀접한 관계가 있다
 - 특정상황에서는 enum과 switch를 활용하면 if~else 구문에 비해 더 편하고 깔끔한 개발을 할 수 있게 된다
