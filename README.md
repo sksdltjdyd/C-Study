@@ -17,3 +17,6 @@
 - Review Studying
 - Coding Example Code and Practice
 
+## Extra Study Note
+- sprintf - https://lesoyng18.notion.site/sprintf-252ce4a4bca480ab8bdad8f0a186fbfa?source=copy_link
+- callstack - https://lesoyng18.notion.site/Call-Stack-252ce4a4bca4806aba08c06bf1adf7a4?source=copy_link
