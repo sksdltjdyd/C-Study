@@ -118,8 +118,31 @@ public:
 		return arritem[index];
 	}
 	
-	void Contains(T value) {
+	// HomeWork
+	bool Contains(T value) {
+		for (int i = 0; i < count; i++)
+		{
+			if (value == arritem[i]) {
+				return true;
+			}
+			
+		}
+		return false;
+	}
 
+	void replace(int index, T value) {
+		if (index < count) {
+			arritem[index] = value;
+		}
+	}
+
+	void erase(int index) {
+		for (int i = index; i < count - 1; i++)
+		{
+			arritem[i] = arritem[i + 1];
+
+		}
+		count--;
 	}
 };
 
