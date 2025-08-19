@@ -17,7 +17,7 @@ struct Zerg
 	bool Burrow = false; // 잠복 상태 여부
 
 	void attackto() {}
-	// 이렇게 속성과 행동을 나누는것을 Abstraction, 추상화라 하는데 객체지향 프로그래밍의 핵심 개념 중 하나이다
+	// 이렇게 속성과 행동을 나누는것을 Abstraction, 추상화라 하는데 객체지향 프로그래밍의 핵심 개념 c중 하나이다
 	// Abstraction은 객체의 속성과 행동을 정의하여 객체를 단순화하고, 핵심 내용(필요한 속성)만 사용하여 복잡성을 줄이는 것을 의미한다
 };
 
@@ -27,7 +27,7 @@ struct Zergling : public Zerg // Zerg 클래스를 상속받은 Zergling 클래스
 	int atkRange = 1; // 공격 범위
 	void attackto() {} // Zergling의 공격 행동
 	void Hold() {} // Zergling의 대기 행동
-	// 상속을 통해 Zerg의 속성과 행동을 재사용하고, 새로운 속성과 행동을 추가할 수 있다
+	// 상속을 통해 Zerg의 속성과 행동을 재사용하고, 새로운 속성과 행동을 추가할 수 있다. 이것이 다형성(Polymorphism)이다
 };
 
 struct Marine
